@@ -15,4 +15,4 @@ const listMarkup = (ingredientsItem) =>
 
 ingredientsEl.insertAdjacentHTML("afterbegin", listMarkup(ingredients));
 
-console.log(ingredientsEl);
+

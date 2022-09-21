@@ -21,5 +21,3 @@ const listMarkup = (imagesList) =>
   imagesList.map((item) => markup(item)).join("");
 
 galleryEl.insertAdjacentHTML("afterbegin", listMarkup(images));
-
-console.log(galleryEl);
